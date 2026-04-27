@@ -46,7 +46,7 @@ net localgroup administrators hacker123 /add
 
 **Explanation:**  
 Adds the user to the Administrators group, simulating privilege escalation.
-
+![Admin CMD](./images/admincmd.png)
 ---
 
 ## 🧠 Attacker Simulation
@@ -89,7 +89,7 @@ Windows Logs → Security
 - Event ID **4720** (user creation) was successfully detected  
 - Event ID **4732** (group assignment) was inconsistent  
 - Event ID **4672** did not show current timestamps  
-
+![Admin CMD](./images/admincmd1.png)
 ---
 
 ## 🧠 Logging Limitation Insight
@@ -116,7 +116,7 @@ net localgroup administrators
 ## ✅ Result
 
 The user `hacker123` appeared in the Administrators group, confirming successful privilege escalation.
-
+![Event Viewer](./images/4720.png)
 ---
 
 ## 🚨 Indicators of Suspicious Activity
